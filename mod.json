@@ -1,0 +1,57 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "the.cat",
+	"name": "Oh Dam",
+	"version": "v1.0.0",
+	"developer": "the",
+	"description": "the best mod, dont forget to check this mod settings too",
+	"resources": {
+		"sprites": [
+			"resources/cat-icon.png",
+			"resources/cat.png"
+		],
+		"files": [
+			"resources/meow.mp3"
+		]
+	},
+	"settings": {
+		"funny-mode": {
+			"name": "Funny Mode",
+			"description": "Changes all texture to cat",
+			"type": "bool",
+			"default": false
+		},
+		"the-worm": {
+			"name": "THEWORM",
+			"description": "Become a worm",
+			"type": "bool",
+			"default": false
+		},
+		"cat-bomb": {
+			"name": "Cat Bomb",
+			"description": "Cats burst out when the player dies",
+			"type": "bool",
+			"default": true
+		},
+		"meow-sound": {
+			"name": "Meow Sound",
+			"description": "Play a meow sound effect every time a button is clicked.",
+			"type": "bool",
+			"default": true
+		}
+	},
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"tags": [
+		"joke",
+		"universal",
+		"customization"
+	]
+}

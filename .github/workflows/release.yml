@@ -1,0 +1,22 @@
+name: Release Geode Mod
+
+on:
+  workflow_run:
+    workflows: ["Build Geode Mod"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: github.event.workflow_run.conclusion == 'success'
+    name: Release mod
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hiimjasmine00/release-geode-mod@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          replace: true
