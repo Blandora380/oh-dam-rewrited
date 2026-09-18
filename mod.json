@@ -8,7 +8,7 @@
 	},
 	"id": "the.cat",
 	"name": "Oh Dam",
-	"version": "v1.0.2",
+	"version": "v1.0.3",
 	"developer": "the",
 	"description": "the best mod, dont forget to check this mod settings too",
 	"resources": {
@@ -32,13 +32,7 @@
 			"description": "Become a worm",
 			"type": "bool",
 			"default": false
-		},
-		"cat-bomb": {
-			"name": "Cat Bomb",
-			"description": "Cats burst out when the player dies",
-			"type": "bool",
-			"default": true
-		},
+                },
 		"meow-sound": {
 			"name": "Meow Sound",
 			"description": "Play a meow sound effect every time a button is clicked.",

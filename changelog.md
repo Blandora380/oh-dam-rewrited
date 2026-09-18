@@ -1,3 +1,8 @@
+# v1.0.3
+
+ * Added meow sound
+ * TODO: catbomb, catdash, catquote
+
 # v1.0.2
 
  * Added THEWORM
