@@ -1,3 +1,7 @@
+# v1.0.2
+
+ * Added THEWORM
+
 # v1.0.1
  
  * Added funny mode and jumpscare
